@@ -24,6 +24,7 @@ programa
 				media = somaNota / 4
 			se(nota[i] < 0.0 ou nota[i] >10.0){
 				escreva("Nota Invalida.")
+				retorne
 			}
 		}
 		escreva("A sua media foi de ",Matematica.arredondar(media, 2), "\n")
@@ -36,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 416; 
+ * @POSICAO-CURSOR = 557; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
